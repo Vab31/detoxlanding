@@ -45,7 +45,7 @@ export default function Main() {
             </a> */}
           </div>
         </div>
-        <div className="flex flex-col mb-10 lg:items-start items-center">
+        <div className="flex flex-col md:mb-10 lg:items-start items-center">
           <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
               <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
