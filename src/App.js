@@ -6,7 +6,7 @@ import VideoPlayer from './component/video';
 import Footer from './component/footer';
 function App() {
   return (
-    <div className="App" style={{"backgroundColor":"rgb(113,166,210)"}}>
+    <div className="App" style={{"backgroundColor":"rgb((255,255,204))"}}>
    <Hero/>
    <VideoPlayer/>
    <Main/>
