@@ -22,7 +22,7 @@ export function Video()  {
             <>
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/s37x2VSZrLw?si=cshQ74X_4QIgjlhH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
             <div class="flex flex-col mt-20  text-center w-full sm:-mb-14" id="video">
-            <h1 class="sm:text-5xl text-3xl font-bold title-font " style={{"color":"rgba(91,29,236,255)"}}>Why You Should Join!</h1>
+            <h1 class="sm:text-5xl text-3xl font-bold title-font " style={{"color":"rgba(91,29,236,255)"}}>क्यों आपको शामिल होना चाहिए!</h1>
            </div>
             <div className="container px-5 py-20 mx-auto">
             

@@ -7,7 +7,7 @@ export default function Main() {
     <section className="text-white font-semibold body-font">
     
     <div class="flex flex-col text-center w-full sm:-mb-14">
-     <h1 class="sm:text-5xl text-2xl font-bold title-font " style={{"color":"rgba(91,29,236,255)"}}>Keypoint</h1>
+     <h1 class="sm:text-5xl text-2xl font-bold title-font " style={{"color":"rgba(91,29,236,255)"}}>मुख्य अंश!</h1>
     </div>
     
     <div className="container px-5 py-24 mx-auto flex flex-wrap ">
@@ -16,28 +16,18 @@ export default function Main() {
       </div>
       <div className="flex flex-col mt-4 flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
         <div className="flex flex-col md:mb-10 lg:items-start items-center">
-          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
+          
           <div className="flex-grow">
             <h2 className=" text-2xl font-bold title-font  mb-3" style={{"color":"rgba(91,29,236,255)"}}>Nurturing Wellness</h2>
-            <p className="leading-relaxed text-base">INSTALL A HEALTHY LIFE IN YOUR MIND.</p>
+            <p className="leading-relaxed text-base text-black">अपनी जिंदगी को फिर खुशहाल जीने की कला</p>
            
           </div>
         </div>
         <div className="flex flex-col md:mb-10 lg:items-start items-center">
-          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-            </svg>
-          </div>
+          
           <div className="flex-grow">
             <h2 className=" text-2xl font-bold title-font  mb-3" style={{"color":"rgba(91,29,236,255)"}}>The Purification</h2>
-            <p className="leading-relaxed text-base">UNINSTALL ALL THE DISEASES FROM YOUR MIND.</p>
+            <p className="leading-relaxed text-base text-black">अपने आप पर अपने बुढ़ापे पर भी निर्भार रहने की कला</p>
             {/* <a className="mt-3 text-indigo-500 inline-flex items-center">Learn More */}
               {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -46,15 +36,26 @@ export default function Main() {
           </div>
         </div>
         <div className="flex flex-col md:mb-10 lg:items-start items-center">
-          <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
+          
           <div className="flex-grow">
             <h2 className=" text-2xl font-bold title-font  mb-3" style={{"color":"rgba(91,29,236,255)"}}>Live</h2>
-            <p className="leading-relaxed text-base">HOW TO LIVE A PAIN FREE LIFE ?</p>
+            <p className="leading-relaxed text-base text-black">अपनी जिंदगी का पूरा कंट्रोल खुद लेने का तरीका</p>
+           
+          </div>
+        </div>
+        <div className="flex flex-col md:mb-10 lg:items-start items-center">
+          
+          <div className="flex-grow">
+            <h2 className=" text-2xl font-bold title-font  mb-3" style={{"color":"rgba(91,29,236,255)"}}>Live Lighter</h2>
+            <p className="leading-relaxed text-base text-black">अपने वज़न को कैसे नेचुरल तरीके से कम करें।</p>
+           
+          </div>
+        </div>
+        <div className="flex flex-col md:mb-10 lg:items-start items-center">
+          
+          <div className="flex-grow">
+            <h2 className=" text-2xl font-bold title-font  mb-3" style={{"color":"rgba(91,29,236,255)"}}>Live Healthy</h2>
+            <p className="leading-relaxed text-base text-black">बिना दवाईयों के अपने आप को स्वस्थ रखने का तरीका</p>
            
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function Main() {
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font text-white font-bold text-xl md:text-2xl ">DAILY LIVE ZOOM SESSIONS</span>
+          <span class="title-font text-white font-bold text-xl md:text-2xl ">रोज़ाना लाइव ज़ूम सत्र</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -77,7 +78,7 @@ export default function Main() {
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font  text-white font-bold text-xl md:text-2xl ">1 DEC TO 31 DEC</span>
+          <span class="title-font  text-white font-bold text-xl md:text-2xl ">1 दिसम्बर से 31 दिसम्बर तक</span>
           
         </div>
       </div>
@@ -87,7 +88,7 @@ export default function Main() {
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font  text-white font-bold text-xl md:text-2xl ">9:15 PM TO 10:30 PM</span>
+          <span class="title-font  text-white font-bold text-xl md:text-2xl ">9:15 बजे रात से लेकर 10:30 बजे रात तक</span>
         </div>
       </div>
     </div>
