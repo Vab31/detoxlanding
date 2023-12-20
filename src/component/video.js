@@ -34,14 +34,15 @@ export function Video()  {
                     <iframe
                       style={iframeStyle}
                       title="YouTube video player"
-                      src="https://www.youtube.com/embed/x0RZo1ru5Lc?si=2QxEqEqMx2lUntco"
+                      src="https://www.youtube.com/embed/JpAAFGwogF8?si=1MV89b9-Yt9bpLma"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     ></iframe>
                   </div>
                   <div className="p-6 bg-slate-600">
-                   <h1 className="title-font text-2xl font-bold text-white mb-3" >The DetoxYourMind</h1>
+                  <button className="inline-flex text-white font-bold bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-900 rounded md:text-2xl "><a href="https://docs.google.com/forms/d/1ow7gjLAPFBJ3ko7JA0jk59wFH02dlwJS1IFWQdZuev0/edit"> Join For Free  </a></button>
+    
                     <p className="leading-relaxed mb-3  text-white">Unlocking Clarity: A Journey to Detox Your Mind and Renew Your Perspective.</p>
                   </div>
                 </div>
