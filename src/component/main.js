@@ -93,7 +93,7 @@ export default function Main() {
       </div>
     </div>
     <div className="flex justify-center mt-4">
-          <button className="inline-flex text-white font-bold bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-900 rounded md:text-2xl "><a href="https://docs.google.com/forms/d/1ow7gjLAPFBJ3ko7JA0jk59wFH02dlwJS1IFWQdZuev0/edit"> Join For Free  </a></button>
+          <button className="inline-flex text-white font-bold bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-900 rounded md:text-2xl "><a href="/form"> Join For Free  </a></button>
           <button className="ml-4 inline-flex  text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded md:text-lg "><a href="https://chat.whatsapp.com/KwzLe4ihYAfCOuYNVqiPud" > Join WhatsApp Group</a></button>
         </div>
   </div>
