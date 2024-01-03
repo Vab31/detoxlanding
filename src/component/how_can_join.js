@@ -44,7 +44,7 @@ export default function Howcanjoin() {
     {data.map((val) => (
   <div className="xl:w-1/3 md:w-1/2 p-4 " key={val.id}>
     <div className="border  border-gray-300 h-32 bg-slate-700 text-white shadow-md p-6 rounded-lg flex">
-      <div className="w-24 h-10">
+      <div className="w-20 h-10">
         <img src={val.img} alt={val.alt} />
       </div>
       <div>

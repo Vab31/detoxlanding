@@ -19,14 +19,14 @@ export function Video()  {
       };
    
         return (
-            <>
+            <div className=' border border-gray-300 shadow-md md:m-28'>
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/s37x2VSZrLw?si=cshQ74X_4QIgjlhH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-            <div class="flex flex-col mt-20  text-center w-full sm:-mb-14" id="video">
+            <div class="flex flex-col mt-8 text-center w-full sm:-mb-14" id="video">
             <h1 class="sm:text-5xl text-3xl font-bold title-font " style={{"color":"rgba(91,29,236,255)"}}>क्यों आपको शामिल होना चाहिए!</h1>
            </div>
             <div className="container px-5 py-20 mx-auto">
             
-            <div className="flex flex-wrap -m-4 border border-gray-300 shadow-md">
+            <div className="flex flex-wrap -m-4 ">
               <div className="p-4 sm:w-1 md:w-1/2 md:ml-auto md:mr-auto ">
                 <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                   {/* Wrap the iframe in a container for responsiveness */}
@@ -49,7 +49,7 @@ export function Video()  {
               </div>
             </div>
           </div>
-          </>
+          </div>
         );
       
             
